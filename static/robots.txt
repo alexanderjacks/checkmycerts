@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://j4cks.com/sitemap.xml
