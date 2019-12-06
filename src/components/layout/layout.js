@@ -13,7 +13,7 @@ const Layout = ({ data, children }) => (
     <Head />
     <Header title={data.site.siteMetadata.siteTitle} />
     {children}
-    <Footer />
+    <Footer footer={data.site.siteMetadata.siteTitle} />
   </LayoutPaint>
 );
 

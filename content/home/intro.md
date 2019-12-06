@@ -1,1 +1,1 @@
-Salutations, you've reached Jacks Consulting. We specialize in static websites and serverless apps that scale seamlessly and save you money.
+Do you need to prove you earned a certification? We've got you!

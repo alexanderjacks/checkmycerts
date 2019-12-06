@@ -2,6 +2,8 @@ import styled from 'styled-components';
 import MEDIA from 'helpers/mediaTemplates';
 
 export const Text = styled.span`
+@import url('https://fonts.googleapis.com/css?family=Solway&display=swap');
+  font-family: 'Solway', cursive;
   display: block;
   font-weight: ${({ size }) => () => {
     switch (size) {
