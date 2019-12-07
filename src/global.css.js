@@ -146,7 +146,7 @@ export default createGlobalStyle`
     max-width: 180px;
     background: #036;
     text-align: center;
-    color: lime;
+    color: orchid;
     border: black dotted 0px;
     border-radius: 2.5rem;
   }

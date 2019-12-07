@@ -2,6 +2,8 @@ import styled from 'styled-components';
 import MEDIA from 'helpers/mediaTemplates';
 
 export const Title = styled.span`
+@import url('https://fonts.googleapis.com/css?family=Solway&display=swap');
+  font-family: 'Solway', cursive;
   display: block;
   font-size: 2rem;
   font-weight: 500;
