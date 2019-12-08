@@ -6,7 +6,7 @@ import Box from 'components/box';
 import Title from 'components/title';
 import Head from 'components/head';
 
-const About = ({ data }) => (
+const Login = ({ data }) => (
   <Layout>
     <Head pageTitle={data.aboutJson.title} />
     <Title as="h1" class="">{'Prove your skills to the world'}</Title>
@@ -20,14 +20,14 @@ const About = ({ data }) => (
   </Layout>
 );
 
-About.propTypes = {
+Login.propTypes = {
   data: PropTypes.object.isRequired,
 };
 
-export default About;
+export default Login;
 
 export const query = graphql`
-  query AboutQuery {
+  query LoginQuery {
     aboutJson {
       title
       content {
